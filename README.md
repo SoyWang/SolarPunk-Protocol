@@ -9,7 +9,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 # SolarPunk Protocol — 演示文稿（中文）
 
-## 幻灯片 1 — 标题与愿景
+## 1 — 标题与愿景
 
 **SolarPunk Protocol**
 **去中心化能源，代币化阳光**
@@ -21,7 +21,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 2 — 问题
+## 2 — 问题
 
 * 当今能源生产 **高度集中且不透明**
 * 太阳能数据被 **封闭在企业或机构系统中**
@@ -30,7 +30,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 3 — 解决方案
+## 3 — 解决方案
 
 **SolarPunk Protocol** 实现太阳能发电数据的去中心化验证与代币化：
 
@@ -41,7 +41,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 4 — 技术架构
+## 4 — 技术架构
 
 ```
 [ 太阳能板 ]
@@ -56,7 +56,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 [ 仪表盘 + 钱包 + 区块浏览器 ]
 ```
 
-**技术栈：**
+**：**
 
 * 后端：Node.js / Express / MQTT
 * 链上：Solana + Anchor (Rust)
@@ -65,7 +65,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 5 — 代币经济（ReFi 层）
+## 5 — 代币经济（ReFi 层）
 
 | 行为      | 链上效果      | 奖励    |
 | ------- | --------- | ----- |
@@ -77,7 +77,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 6 — 为什么选择 Solana
+##  6 — 为什么选择 Solana
 
 * 高吞吐量，适合 **实时 IoT 能源数据写入**
 * 低 Gas 成本 → 支持 **微量能源交易**
@@ -88,7 +88,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 7 — 应用场景
+## 7 — 应用场景
 
 * 家庭太阳能发电者赚取 $LGR 收益
 * 企业 ESG 报告的链上绿色能源数据验证
@@ -97,7 +97,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 8 — 路线图
+##  8 — 路线图
 
 **2025 Q1：** MVP 原型 — 数据记录器 → Solana → 仪表盘
 **2025 Q2：** 公测网络 + ReFi 流动性池集成
@@ -106,7 +106,7 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 ---
 
-## 幻灯片 9 — 加密朋克宣言
+## 9 — 加密朋克宣言
 
 > 在一个能源被垄断、生态被摧毁的世界，
 > 我们选择重写能源的所有权规则。
