@@ -8,7 +8,11 @@ SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRligh
 
 
 
-SolarPunk Protocol — Presentation (English)
+SolarPunk Protocol — Presentation
+
+Here’s the problem: many rooftop and community solar systems produce excess electricity that can’t legally be sold to the grid without permits. That means clean energy often gets wasted or confined to self-use. Owners have no easy, compliant way to convert surplus power into income.
+
+Our team mixes IoT engineers, energy monitoring experts, and Solana builders. We’ve shipped datalogger integrations, built power-quality analytics for solar farms, and written production Solana programs. We know both the physical energy layer and the blockchain layer.
 
 1 — Title & Vision
 
