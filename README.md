@@ -14,6 +14,8 @@ Here’s the problem: many rooftop and community solar systems produce excess el
 
 Our team mixes IoT engineers, energy monitoring experts, and Solana builders. We’ve shipped datalogger integrations, built power-quality analytics for solar farms, and written production Solana programs. We know both the physical energy layer and the blockchain layer.
 
+We’ve run pilots with dataloggers on residential systems and small community arrays. Participants confirmed they would prefer receiving tokenized rewards over complex grid paperwork — and they value transparent, auditable proofs of their green contribution.
+
 1 — Title & Vision
 
 SolarPunk Protocol
