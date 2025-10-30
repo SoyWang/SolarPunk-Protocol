@@ -7,125 +7,115 @@ https://little-green-ranger.vercel.app/
 SolarPunk Protocol is a DePIN + ReFi infrastructure on Solana that turns LGRlight into on-chain truth. We capture solar energy data via IoT devices, mint kWh-backed tokens on Solana, and create a new paradigm for decentralized energy ownership. Our protocol enables anyone to tokenize their renewable energy production and participate in the green economy revolution.
 
 
-# SolarPunk Protocol — 演示文稿（中文）
 
-## 1 — 标题与愿景
+SolarPunk Protocol — Presentation (English)
 
-**SolarPunk Protocol**
-**去中心化能源，代币化阳光**
+1 — Title & Vision
 
-我们让阳光成为链上的真实。
+SolarPunk Protocol
+Decentralized Energy, Tokenized Sunshine
 
-这是一个基于 **Solana** 的 DePIN + ReFi 基础设施协议，
-将现实世界的太阳能转化为可验证、可交易的数字资产。
+We make sunlight real — on-chain.
 
----
+A Solana-based DePIN + ReFi infrastructure protocol
+that transforms real-world solar energy into verifiable, tradable digital assets.
 
-## 2 — 问题
+⸻
 
-* 当今能源生产 **高度集中且不透明**
-* 太阳能数据被 **封闭在企业或机构系统中**
-* 可再生能源凭证（REC）**价格高、结算慢、难验证**
-* 个体发电者 **无法证明或变现他们的发电贡献**
+2 — The Problem
+	•	Energy production today is highly centralized and opaque
+	•	Solar energy data is locked inside corporate or institutional systems
+	•	Renewable Energy Certificates (RECs) are expensive, slow to settle, and hard to verify
+	•	Individual producers cannot prove or monetize their energy generation
 
----
+⸻
 
-## 3 — 解决方案
+3 — The Solution
 
-**SolarPunk Protocol** 实现太阳能发电数据的去中心化验证与代币化：
+SolarPunk Protocol enables decentralized verification and tokenization of solar generation data:
+	1.	IoT + Solana Infrastructure: Data loggers upload generation data via MQTT/HTTP → Solana RPC → On-chain Proof of Energy Production (PoEP).
+	2.	Tokenization Layer: Each 1 kilowatt-hour (kWh) = 1 $LGR token (configurable ratio).
+	3.	ReFi Module: $LGR can be staked, traded, or redeemed for carbon credit assets.
+	4.	Open Protocol: Developers and energy communities can integrate via API / SDK.
 
-1. **IoT + Solana 基础设施：** 数据记录器通过 MQTT/HTTP 上传发电数据 → Solana RPC → 链上能源生产证明（PoEP）。
-2. **代币化层：** 每 1 千瓦时（kWh）发电量 = 1 枚 $LGR 代币（可自定义比例）。
-3. **ReFi 模块：** $LGR 可用于质押、交易或兑换碳信用资产。
-4. **开放协议：** 开发者与能源社区可直接调用 API / SDK 接入 SolarPunk 网络。
+⸻
 
----
+4 — Technical Architecture
 
-## 4 — 技术架构
-
-```
-[ 太阳能板 ]
+[ Solar Panel ]
      ↓
-[ 数据记录器 / RS485 ]
+[ Data Logger / RS485 ]
      ↓ MQTT / Express API
      ↓
-[ Solana 智能合约 (Anchor) ]
+[ Solana Smart Contract (Anchor) ]
      ↓
-[ 铸造 $LGR 代币 ]
+[ Mint $LGR Token ]
      ↓
-[ 仪表盘 + 钱包 + 区块浏览器 ]
-```
+[ Dashboard + Wallet + Block Explorer ]
 
-**：**
+Stack:
+	•	Backend: Node.js / Express / MQTT
+	•	On-chain: Solana + Anchor (Rust)
+	•	Frontend: React + Wallet Adapter
+	•	Data Proof: IoT-signed payloads + timestamp verification
 
-* 后端：Node.js / Express / MQTT
-* 链上：Solana + Anchor (Rust)
-* 前端：React + Wallet Adapter
-* 数据证明：IoT 签名负载 + 时间戳验证
+⸻
 
----
+5 — Tokenomics (ReFi Layer)
 
-## 5 — 代币经济（ReFi 层）
+Action	On-chain Effect	Reward
+Generate Solar Energy	Mint $LGR	Energy Income
+Stake $LGR	Earn $ECO	Green Incentive
+Burn $LGR	Mint Carbon Credit NFT	Sustainability Proof
 
-| 行为      | 链上效果      | 奖励    |
-| ------- | --------- | ----- |
-| 产生太阳能   | 铸造 $LGR   | 发电收益  |
-| 质押 $LGR | 获得 $ECO   | 绿色激励  |
-| 销毁 $LGR | 生成碳信用 NFT | 可持续证明 |
+Goal: Build a decentralized green financial system —
+where sustainability itself becomes profitable.
 
-**目标：** 建立一个去中心化的绿色金融体系——*让可持续性本身也能产生收益。*
+⸻
 
----
+6 — Why Solana
+	•	High throughput for real-time IoT energy data writes
+	•	Low gas cost → supports micro energy transactions
+	•	Active DePIN and ReFi ecosystem (Helium, Render, Hivemapper)
+	•	Mature infrastructure (RPC services, indexers, wallet support)
 
-##  6 — 为什么选择 Solana
+Energy on-chain requires speed, transparency, and composability — Solana has all three.
 
-* 高吞吐量，适合 **实时 IoT 能源数据写入**
-* 低 Gas 成本 → 支持 **微量能源交易**
-* 活跃的 **DePIN 与 ReFi 生态**（Helium、Render、Hivemapper）
-* 完善的基础设施（RPC 服务、索引器、钱包支持）
+⸻
 
-**能源上链需要速度、透明度与可组合性——Solana 拥有这三者。**
+7 — Use Cases
+	•	Home solar producers earn $LGR rewards
+	•	Enterprises verify green energy data for ESG reporting
+	•	Carbon credit markets track and trade $LGR-based assets
+	•	Governments/NGOs incentivize clean energy generation
 
----
+⸻
 
-## 7 — 应用场景
+8 — Roadmap
 
-* 家庭太阳能发电者赚取 $LGR 收益
-* 企业 ESG 报告的链上绿色能源数据验证
-* 碳信用市场基于 $LGR 的追踪与交易
-* 政府/NGO 激励清洁能源生产
+2025 Q1: MVP Prototype — Data Logger → Solana → Dashboard
+2025 Q2: Public Testnet + ReFi Liquidity Pool Integration
+2025 Q3: Partnerships with Solar Hardware Manufacturers
+2025 Q4: Mainnet Launch + DAO Governance (SolarDAO)
 
----
+⸻
 
-##  8 — 路线图
+9 — The Cypherpunk Manifesto
 
-**2025 Q1：** MVP 原型 — 数据记录器 → Solana → 仪表盘
-**2025 Q2：** 公测网络 + ReFi 流动性池集成
-**2025 Q3：** 与太阳能硬件厂商达成合作
-**2025 Q4：** 主网发布 + DAO 治理（SolarDAO）
+In a world where energy is monopolized and ecosystems are destroyed,
+we choose to rewrite the rules of energy ownership.
 
----
+Every watt of power should belong to its creator —
+whether it’s a rooftop worker, a desert array, or a sun-chasing engineer.
 
-## 9 — 加密朋克宣言
+We are not just writing code — we are designing the future of energy freedom.
+The revolution will not be centralized; it will be ignited by sunlight.
 
-> 在一个能源被垄断、生态被摧毁的世界，
-> 我们选择重写能源的所有权规则。
->
-> 每一瓦电力，都应属于创造它的人。
-> 无论是屋顶工人、戈壁板阵，还是追光的工程师。
->
-> 我们不只是写代码，我们在设计能源自由的未来。
-> **革命不会被中心化，它将由阳光引爆。**
+⸻
 
----
+10 — Call to Action
 
-## 幻灯片 10 — 行动呼吁
+Join the SolarPunk Movement.
+Let open-source energy belong to everyone.
 
-加入 SolarPunk 运动。
-让开源能源属于每一个人。
-
-🌞 官网：[solar.team](https://solar.team)
-💻 GitHub：[github.com/SolarPunkProtocol](https://github.com/SolarPunkProtocol)
-🐦 Twitter：[@SolarPunkXYZ](https://twitter.com/SolarPunkXYZ)
-
-**打造太阳能经济，从一缕阳光开始。**
+Building a solar economy, starting from a ray of sunlight.
